@@ -11,6 +11,7 @@ body {
   height: 100vh;
   background-color: #000000;
   color: #fff;
+  padding: 20px;
 }
 
 div {
@@ -19,6 +20,7 @@ div {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  max-width: 100%;
 }
 
 h1 {
@@ -51,4 +53,40 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 10px;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  div {
+    height: auto;
+    min-height: 100vh;
+    padding: 20px 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 3rem;
+    margin-top: -50px;
+    margin-bottom: 8px;
+  }
+
+  a {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
 }
